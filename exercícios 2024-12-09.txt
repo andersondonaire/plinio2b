@@ -1,0 +1,8 @@
+2. Somar números até 10  
+   Crie uma função recursiva que some todos os números de 1 até 10. A função deve chamar a si mesma até chegar a 10, retornando o valor total da soma.
+
+3. Calcular a idade de uma pessoa no futuro  
+   Crie uma função recursiva que, dado a idade atual de uma pessoa e a quantidade de anos que passarão, retorne a idade que essa pessoa terá ao final do período, diminuindo o número de anos até chegar a zero.
+
+4. Multiplicação de dois números usando soma  
+   Faça uma função recursiva que multiplique dois números usando apenas a operação de soma repetida. Por exemplo, para multiplicar 3 por 4, a função deve somar 3 + 3 + 3 + 3.
