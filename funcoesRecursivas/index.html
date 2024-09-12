@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Recursivas</title>
+</head>
+<body>
+    
+
+
+<script>
+// 1. Contagem regressiva para o recreio  
+// Crie uma função recursiva que faça uma contagem regressiva a partir de um número dado (por exemplo, 10) até zero, mostrando a mensagem "Falta X minutos para o recreio!" a cada passo.
+
+function contagemRegressiva(tempo) {
+  if (tempo === 0) {
+    alert("Hora do recreio!");
+    return;
+  }
+  alert(`Falta ${tempo} minutos para o recreio!`);
+
+  contagemRegressiva(tempo - 1);
+}
+
+contagemRegressiva(10);
+
+
+
+
+</script>    
+</body>
+</html>
